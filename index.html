@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mr. Panda</title>
+        <meta name="description" content="Una guía interactiva de primeros pasos para Brackets.">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Homenaje' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        
+    </head>
+    <body>
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">¿Porque tener pagina web?</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            
+            </nav>
+        
+        </div>
+        
+        <!-- <nav>
+
+            <ul>
+            <li><a>Inicio</a></li>
+            <li><a>Servicios</a></li> 
+            <li><a>Contacto</a></li>    
+            </ul>
+        
+        </nav>-->
+        <div class="cont">
+        <header>
+            
+            <div class="sNetworks">
+                <a href="htpps://www.facebook.com" target="_blank"><img src="img/iconFacebookC.png" onmouseover="this.src='img/iconFacebookP.png';" onmouseout="this.src='img/iconFacebookC.png';"/></a>
+                <a href="htpps://www.twitter.com" target="_blank"><img src="img/iconTwitterC.png" onmouseover="this.src='img/iconTwitterP.png';" onmouseout="this.src='img/iconTwitterC.png';"/></a>
+                <a href="htpps://www.google.com" target="_blank"><img src="img/iconGplusC.png" onmouseover="this.src='img/iconGplusP.png';" onmouseout="this.src='img/iconGplusC.png';"/></a>
+                <a href="htpps://www.twitter.com" target="_blank"><img src="img/iconWhatsC.png" onmouseover="this.src='img/iconWhatsP.png';" onmouseout="this.src='img/iconWhatsC.png';"/></a>
+                <a href="htpps://www.facebook.com" target="_blank"><img src="img/iconMailC.png" onmouseover="this.src='img/iconMailP.png';" onmouseout="this.src='img/iconMailC.png';"/></a>
+            </div>
+            
+            <a href="#"><img class="logo" src="img/mrpandaMin.png"></a>
+
+        </header> 
+        <div class="naviconSquare" id="nsq"><span class="menuLabel">MENU</span><i class="fa fa-bars fa-3x"></i></div>
+        <div class="blockLink"></div>
+        
+        <div id="ContentBlock_1">
+            <div id="parallax6" class="device-peek-bg"></div>
+        </div>
+        
+        <div class="miniContentBlock">      
+            Desarrollo web que responde a su negocio
+        </div>    
+            
+        <div id="ContentBlock_2" class="contentType1">
+            Servicios
+            
+            <div class="serviceOne"><title>Pagina Web Estatica</title></div>
+            <div class="serviceTwo"><title>Pagina Web Estatica</title></div>
+            
+        </div>
+        
+        <div id="ContentBlock_3">
+            <div id="parallax2" class="device-peek-bg"> </div>
+        </div>
+        <div id="ContentBlock_4" class="contentType2">
+            <!--<div class="sepa">-->Estamos comprometidos a desarrollar sitios web que son tan funcionales como son llamativos<!--</div>-->
+        </div>
+        <div id="ContentBlock_5">
+            <div id="parallax3" class="device-peek-bg">
+            <div class="squareLeft">  
+
+<form role="form">
+  <div class="form-group">
+    <label for="ejemplo_email_1">Email</label>
+    <input type="email" class="form-control" id="ejemplo_email_1"
+           placeholder="Introduce tu email">
+  </div>
+  <div class="form-group">
+    <label for="ejemplo_password_1">Contraseña</label>
+    <input type="password" class="form-control" id="ejemplo_password_1" 
+           placeholder="Contraseña">
+  </div>
+  <div class="form-group">
+    <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+    <input type="file" id="ejemplo_archivo_1">
+    <p class="help-block">Ejemplo de texto de ayuda.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Activa esta casilla
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Enviar</button>
+</form>
+</div>  
+
+            <div class="squareRight">
+                <span class="contactoTittle">Contactanos:</span>
+            </div>
+
+            
+            </div>
+        </div>
+        <div id="ContentBlock_6" class="footer">
+        </div>
+    
+            </div>
+    <!--<script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    </script>-->
+        
+        
+        
+    <script>
+        $('#nsq').click(function(){
+            $(this).find('i').toggleClass('fa-bars fa-times');
+            $(".sidebar").toggleClass('open-sidebar');
+            //$(".cont").toggleClass('open-sidebar');
+            //$(".sidebar").addClass("open-sidebar");
+            $(".naviconSquare").toggleClass("open-sidebar");
+            //$(".sidebar").removeClass('open-sidebar');
+            //$(".cont").removeClass("open-sidebar");
+        });    
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+    
+    
+</html>
+<!--
+
+                                                         
+                 CODE BY MR. PANDA
+                 http://mrpanda.mx                                           
+                                                  
+           `-::::-`             .::::-.           
+          -:::::::`             ::::::::`         
+         .::::::-`               .::::::-         
+         .::::.`                   .-:::-         
+          ```                        ```          
+                  `...      `..`                  
+                 .::::      .:::-`                
+               .::::::      .:::::.`              
+              -::::::`       :::::::`             
+             `::::::.        `::::::-             
+              -:::-`          `-::::`             
+               ```     ````     ````              
+                      .:::::                      
+                      `-::-`                      
+                        ``                        
+                                                  
+                `.``          ````                
+              `` ```...`````...`` ``              
+              ```..``  `--.` ``...``              
+                   ``.`.-:-`.```                  
+                        ..`                       
+                        .-                        
+                       `::.                       
+                       -::-`                      
+                      .::::-                      
+                     `-:::::`                     
+                     .::::::-                     
+                      .::::-`                     
+                        .-`                       
