@@ -60,10 +60,11 @@ header{
     font-family: 'Pontano Sans', sans-serif;
     text-shadow: 2px 1px 3px #333;
 }
-.footer{
+footer{
     height: 150px;
     width: 100%;
-    background-color: #283842;
+    background-color: #333;
+    //background-color: #283842;
 }
 .naviconSquare {
     background-color: #82358b;
@@ -293,4 +294,9 @@ nav.sNetworks li{
 }
 .sNetworks li a img{
     margin: auto;
+}
+.backgroundFade{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
 }
