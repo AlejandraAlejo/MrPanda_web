@@ -1,3 +1,20 @@
+/*::-webkit-scrollbar{ 
+    width: 12px;
+}
+::-webkit-scrollbar-button       {  }
+::-webkit-scrollbar-track{ 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track-piece  {  }
+::-webkit-scrollbar-thumb        { 
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-corner       { }
+::-webkit-resizer                {  }
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +32,7 @@ header{
     width: 100%;
     height: 65px;
     //border-bottom: 3px solid #775021;
-    box-shadow:  0px 1px 10px #82358b;
+    box-shadow:  0px 1px 10px #a8c503;
     z-index: 100;
 }
 
@@ -40,12 +57,28 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vw;
-    min-height: 540px;
+    min-height: 550px;
 }
 .contentType1{
     height: 100%;
     width: 100%;
     background-color: #ffffff;
+}
+.contentType3{
+    height: 100%;
+    width: 100%;
+    background-color: mediumslateblue;
+}
+.contentType4{
+    height: 100%;
+    width: 100%;
+    background-color: sandybrown;
+}
+.contentType5{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Texturas/wallBlue.jpg);
+    background-repeat: repeat;
 }
 .contentType2 {
     background-color: #ffffff;
@@ -122,7 +155,7 @@ footer{
 }
 .blockLink{
     background-color: rgba(125, 78, 36, 0);
-    height: 20px;
+    height: 21px;
     position: fixed;
     top: 65px;
     width: 100%;
@@ -175,8 +208,8 @@ footer{
     margin-top: 5px;
 }
 .sidebar nav ul{
-    margin-top: 65px;
-    margin-left: 5%;
+    margin-left: 27.5px;
+    margin-top: 2.5px;
 }
 .sidebar li{
     border-bottom: 1.5px solid #515050;
@@ -235,17 +268,19 @@ footer{
     width: 75%;
 }
 .squareLeft{
+    float: left;
     height: 480px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 30px;
+    margin-top: 15px;
     position: absolute;
     width: 40%;
 }
 .squareRight{
+    float: left;
     height: 480px;
     margin-left: 55%;
-    margin-top: 30px;
+    margin-top: 15px;
     position: absolute;
     width: 40%;
 }
@@ -257,10 +292,20 @@ footer{
 .principalTittle{
     color: #ffffff;
     font-size: 40px;
-    text-shadow: 3px 2px 2px #000000;
+    text-shadow: 3px 3px 2px #000000;
     width: 100%;
     text-align: center;
     padding-top: 15px;
+    font-family: 'Righteous', cursive;
+}
+.principalTittle2{
+    color: #777;
+    font-size: 40px;
+    text-shadow: 3px 3px 2px #b2b2b1;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Righteous', cursive;
 }
 .subTittle{
     color: #ffffff;
@@ -268,6 +313,8 @@ footer{
     text-align: center;
     width: 100%;
     text-shadow: 3px 2px 2px #000000;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sNetworks{
@@ -334,4 +381,356 @@ nav.sNetworks li{
 *:-ms-input-placeholder {
     /* Internet Explorer 10 y superior */
     color: #ccc !important;
+}
+.btn-success{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    background-color: #A8C503 !important;
+}
+.btn-success:hover{
+    background-color: #5cb85c !important;
+}
+label {
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold !important;
+}
+.divisor {
+    background-color: rgba(204, 204, 204, 0.2);
+    float: left;
+    height: 450px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 5px;
+}
+.contactInfo{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 35px;
+    height: 75%;
+    width: 100%;
+    padding: 35px;
+}
+.contactInfo p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Pontano Sans;
+    text-align: center;
+}
+.contactInfo span{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #777;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+######################   Hexagono   ############################*/
+#hex1:hover, #hex2:hover, #hex3:hover, #hex4:hover, #hex5:hover, #hex6:hover, #hex7:hover, #hex8:hover, #hex9:hover, #hex10:hover {
+		transform : scale(1.05);
+		-moz-transform : scale(1.05); /* Firefox */
+		-webkit-transform : scale(1.05); /* Chrome - Safari */
+		-o-transform : scale(1.05); /* Opera */
+		-ms-transform : scale(1.05); /* IE9 */
+	}
+
+#hex1{
+    background-image: url(img/Logos/tempLogo.png);
+}
+#hex2{
+    background-image: url(img/Logos/tempLogo.png);
+}
+
+#hex3{
+    background-image: url(img/Logos/tempLogo.png);
+}
+
+#hex4{
+    background-image: url(img/Logos/tempLogo.png);
+}
+
+#hex5{
+    background-image: url(img/Logos/tempLogo.png);
+}
+#hex7{
+    background-image: url(img/Logos/tempLogo.png);
+}
+#hex8{
+    background-image: url(img/Logos/tempLogo.png);
+}
+#hex9{
+    background-image: url(img/Logos/tempLogo.png);
+}
+
+#hex6{
+    background-image: url(img/Logos/tempLogo.png);
+    margin-left: 110.5px;
+}
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  margin: 32.5px 5px;
+  background-size: auto 230.9401px;
+  background-position: center;
+  float: left;
+  transition: 0.5s ease;
+    -moz-transition: 0.5s ease; /* Firefox */
+    -webkit-transition: 0.5s ease; /* Chrome - Safari */
+    -o-transition: 0.5s ease; /* Opera */
+}
+
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 29.29px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 200.0000px;
+  height: 115.47005383792516px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 2.8868px;
+  left: 0;
+    width: 200PX;
+  //width: 190.0000px;
+  height: 109.6966px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+/*####################################################################*/
+
+
+.hexagonContainer {
+    //background-color: red;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 1050px;
+    margin-top: 50px;
+}
+
+.squareContainer {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 1050px;
+    margin-top: 50px;
+}
+
+/*#################################Cuadrado###################################*/
+
+.square{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    float: left;
+    margin: 4px;
+    background-image: url(img/Logos/tempLogo.png);
+    background-size: auto 200px;
+    background-position: center;
+    transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease; /* Firefox */
+    -webkit-transition: transform 0.5s ease; /* Chrome - Safari */
+    -o-transition: transform 0.5s ease; /* Opera */
+}
+
+
+	.square:hover{
+		transform : scale(1.05);
+		-moz-transform : scale(1.05); /* Firefox */
+		-webkit-transform : scale(1.05); /* Chrome - Safari */
+		-o-transform : scale(1.05); /* Opera */
+		-ms-transform : scale(1.05); /* IE9 */
+	}
+
+/*####################################################################*/
+
+
+/*################################Polaroid####################################*/
+
+.polaroid{
+    width: 190px;
+    height: 190px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-image: url(img/Logos/AlexLoezaHexagon3.png);
+    background-size: auto 190px;
+    background-position: center;
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease; /* Firefox */
+    -webkit-transition: 0.3s ease; /* Chrome - Safari */
+    -o-transition: 0.3s ease; /* Opera */
+    border-left: 8px solid #ffffff;
+    border-top: 8px solid #ffffff;
+    border-right: 8px solid #ffffff;
+    border-bottom: 25px solid #ffffff;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+#polaroid1:hover{
+    transform: rotate(-5deg);
+}
+#polaroid2:hover{
+    transform: rotate(5deg);
+}
+#polaroid3:hover{
+    transform: rotate(-5deg);
+}
+#polaroid4:hover{
+    transform: rotate(5deg);
+}
+#polaroid5:hover{
+    transform: rotate(-5deg);
+}
+#polaroid6:hover{
+    transform: rotate(5deg);
+}
+#polaroid7:hover{
+    transform: rotate(-5deg);
+}
+#polaroid8:hover{
+    transform: rotate(5deg);
+}
+#polaroid9:hover{
+    transform: rotate(-5deg);
+}
+#polaroid10:hover{
+    transform: rotate(5deg);
+}
+
+
+
+/*####################################################################*/
+
+
+/*################################Reatratos####################################*/
+
+.portraitFrame{
+    width: 190px;
+    height: 190px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-image: url(img/Texturas/wood.jpg);
+    background-repeat: repeat;
+    transition: 0.3s ease;
+    -moz-transition: 0.3s ease; /* Firefox */
+    -webkit-transition: 0.3s ease; /* Chrome - Safari */
+    -o-transition: 0.3s ease; /* Opera */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+    display: table;
+    border-radius: 10px;
+    padding: 10px;
+}
+.portrait{
+    display: table-cell;
+    vertical-align: middle middle;
+    background-image: url(img/Logos/AlexLoezaHexagon.png);
+    background-size: auto 170px;
+    background-position: center;
+    width: 170px;
+    height: 170px;
+}
+
+#portrait1:hover{
+    transform: rotate(-5deg);
+}
+#portrait2:hover{
+    transform: rotate(5deg);
+}
+#portrait3:hover{
+    transform: rotate(-5deg);
+}
+#portrait4:hover{
+    transform: rotate(5deg);
+}
+#portrait5:hover{
+    transform: rotate(-5deg);
+}
+#portrait6:hover{
+    transform: rotate(5deg);
+}
+#portrait7:hover{
+    transform: rotate(-5deg);
+}
+#portrait8:hover{
+    transform: rotate(5deg);
+}
+#portrait9:hover{
+    transform: rotate(-5deg);
+}
+#portrait10:hover{
+    transform: rotate(5deg);
+}
+
+/*####################################################################*/
+
+.square-open{
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
 }
