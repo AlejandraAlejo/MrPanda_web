@@ -588,6 +588,7 @@ label {
     -moz-transition: transform 0.5s ease; /* Firefox */
     -webkit-transition: transform 0.5s ease; /* Chrome - Safari */
     -o-transition: transform 0.5s ease; /* Opera */
+    z-index: 1;
 }
 
 
@@ -728,9 +729,28 @@ label {
 
 /*####################################################################*/
 
-.square-open{
+.squareOpen1{
     position: absolute;
     background-color: red;
     width: 100%;
     height: 100%;
+    z-index: 0;
+    display: block;
+    transition: 1s ease;
+}
+.squareOpen{
+    visibility: hidden;
+}
+.squareOpen2{
+    position: absolute;
+    background-color: gold;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition: 1s ease;
+    visibility: visible;
+}
+.squareNone{
+    transition: .2s ease;
+    visibility: hidden;
 }

@@ -145,7 +145,8 @@
         <div id="ContentBlock_2" class="contentType3"> 
             <div class="principalTittle">Algunos de nuestros clientes</div>
                 <div class="squareContainer">
-                    <div class="squareContainer-open">
+                    <div id="squareOpen" class="squareOpen">
+                    </div>
                     <div class="square" id="square1">
                     </div>
                     <div class="square" id="square2">
@@ -168,7 +169,7 @@
                     </div>
                 </div>
                 </div>
-            </div>
+            
             
             
             <div id="ContentBlock_2" class="contentType4"> 
@@ -326,8 +327,13 @@
     </script>
     
     <script>
-        $('.square').click(function(){
-            $(".square").toggleClass("squarecontainer-close squareContainer-open");
+        $('#square1').click(function(){
+            $("#squareOpen").toggleClass("squareOpen squareOpen1");
+            $(".square").toggleClass("squareNone");
+        });    
+        $('#square2').click(function(){
+            $("#squareOpen").toggleClass("squareOpen squareOpen2");
+            $(".square").toggleClass("squareNone");
         });    
     </script>    
         
