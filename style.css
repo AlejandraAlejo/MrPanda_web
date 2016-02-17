@@ -600,134 +600,10 @@ label {
 		-ms-transform : scale(1.05); /* IE9 */
 	}
 
-/*####################################################################*/
-
-
-/*################################Polaroid####################################*/
-
-.polaroid{
-    width: 190px;
-    height: 190px;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    background-image: url(img/Logos/AlexLoezaHexagon3.png);
-    background-size: auto 190px;
-    background-position: center;
-    transition: 0.3s ease;
-    -moz-transition: 0.3s ease; /* Firefox */
-    -webkit-transition: 0.3s ease; /* Chrome - Safari */
-    -o-transition: 0.3s ease; /* Opera */
-    border-left: 8px solid #ffffff;
-    border-top: 8px solid #ffffff;
-    border-right: 8px solid #ffffff;
-    border-bottom: 25px solid #ffffff;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    cursor: pointer;
-}
-
-#polaroid1:hover{
-    transform: rotate(-5deg);
-}
-#polaroid2:hover{
-    transform: rotate(5deg);
-}
-#polaroid3:hover{
-    transform: rotate(-5deg);
-}
-#polaroid4:hover{
-    transform: rotate(5deg);
-}
-#polaroid5:hover{
-    transform: rotate(-5deg);
-}
-#polaroid6:hover{
-    transform: rotate(5deg);
-}
-#polaroid7:hover{
-    transform: rotate(-5deg);
-}
-#polaroid8:hover{
-    transform: rotate(5deg);
-}
-#polaroid9:hover{
-    transform: rotate(-5deg);
-}
-#polaroid10:hover{
-    transform: rotate(5deg);
-}
 
 
 
-/*####################################################################*/
 
-
-/*################################Reatratos####################################*/
-
-.portraitFrame{
-    width: 190px;
-    height: 190px;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 60px;
-    background-image: url(img/Texturas/wood.jpg);
-    background-repeat: repeat;
-    transition: 0.3s ease;
-    -moz-transition: 0.3s ease; /* Firefox */
-    -webkit-transition: 0.3s ease; /* Chrome - Safari */
-    -o-transition: 0.3s ease; /* Opera */
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    cursor: pointer;
-    display: table;
-    border-radius: 10px;
-    padding: 10px;
-}
-.portrait{
-    display: table-cell;
-    vertical-align: middle middle;
-    background-image: url(img/Logos/AlexLoezaHexagon.png);
-    background-size: auto 170px;
-    background-position: center;
-    width: 170px;
-    height: 170px;
-}
-
-#portrait1:hover{
-    transform: rotate(-5deg);
-}
-#portrait2:hover{
-    transform: rotate(5deg);
-}
-#portrait3:hover{
-    transform: rotate(-5deg);
-}
-#portrait4:hover{
-    transform: rotate(5deg);
-}
-#portrait5:hover{
-    transform: rotate(-5deg);
-}
-#portrait6:hover{
-    transform: rotate(5deg);
-}
-#portrait7:hover{
-    transform: rotate(-5deg);
-}
-#portrait8:hover{
-    transform: rotate(5deg);
-}
-#portrait9:hover{
-    transform: rotate(-5deg);
-}
-#portrait10:hover{
-    transform: rotate(5deg);
-}
-
-/*####################################################################*/
 
 .squareOpen1{
     position: absolute;
@@ -754,3 +630,6 @@ label {
     transition: .2s ease;
     visibility: hidden;
 }
+
+
+/*####################################################################*/
