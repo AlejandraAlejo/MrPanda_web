@@ -75,6 +75,7 @@ header{
     height: 100%;
     width: 100%;
     background-color: #ffffff;
+    text-align: center;
 }
 .contentType3{
     height: 100%;
@@ -757,3 +758,25 @@ label {
 }
 
 /****************************  Rectangle  **********************************/
+
+
+/*#############################  Nuestos Servicios  #######################################*/
+
+.serviceOne, .serviceTwo, .serviceThree{
+    display: inline-block;
+}
+
+.serviceOne img{
+    height: auto;
+    width: 300px;
+}
+
+.serviceTwo img{
+    height: auto;
+    width: 300px;
+}
+
+.serviceThree img{
+    height: auto;
+    width: 300px;
+}
