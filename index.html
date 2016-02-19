@@ -12,6 +12,7 @@
         <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
         <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -80,7 +81,7 @@
             <div class="serviceTwo"><title>Pagina Web Estatica</title></div>
             
         </div>
-        
+        <!--
         <div id="ContentBlock_3">
             <div id="parallax2" class="device-peek-bg">
                 <div class="backgroundFade">
@@ -126,44 +127,66 @@
                 </div>
             </div>
         </div>    
-    
-        <div id="ContentBlock_2" class="contentType3"> 
-            <div class="principalTittle">Algunos de nuestros clientes</div>
-                <div class="squareContainer">
-                    <div id="squareOpen" class="squareOpen">
-                    </div>
-                    <div class="square" id="square1">
-                    </div>
-                    <div class="square" id="square2">
-                    </div>
-                    <div class="square" id="square3">
-                    </div>
-                    <div class="square" id="square4">
-                    </div>
-                    <div class="square" id="square5">
-                    </div>
-                    <div class="square" id="square6">
-                    </div>
-                    <div class="square" id="square7">
-                    </div>
-                    <div class="square" id="square8">
-                    </div>
-                    <div class="square" id="square9">
-                    </div>
-                    <div class="square" id="square10">
+    -->
+            
+        <div id="ContentBlock_3">
+            <div id="parallax1" class="device-peek-bg2">
+                <div class="backgroundFade">
+                    <div class="principalTittle">Algunos de nuestros clientes</div>
+                    <div class="rectangleContainer">
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle1"></div>
+                            <div class="rectangleInfo"><p>Tecnodental</p></div>
+                            </div>
+
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle2"></div>
+                            <div class="rectangleInfo"><p>Thermofrio</p></div>
+                            </div>
+
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle3"></div>
+                            <div class="rectangleInfo"><p>Alex Loeza photographer</p></div>
+                            </div>
+
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle4"></div>
+                            <div class="rectangleInfo"><p>Expresarte</p></div>
+                            </div>
+
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle5"></div>
+                            <div class="rectangleInfo"></div>
+                            </div>
+                            
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle6"></div>
+                            <div class="rectangleInfo"></div>
+                            </div>
+                        
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle7"></div>
+                            <div class="rectangleInfo"></div>
+                            </div>
+                            
+                            <div class="rectangleWrapper">
+                            <div class="rectangle" id="rectangle8"></div>
+                            <div class="rectangleInfo"></div>
+                            </div>
                     </div>
                 </div>
+            </div>
+        <!--Estamos comprometidos a desarrollar sitios web que son tan funcionales como son llamativos-->
+        </div>
+            
+
+        <div id="ContentBlock_2" class="contentType1">
+            <div class="principalTittle2">Ventajas de Tener Pagina Web</div>
+            
+            
         </div>
             
             
-            
-            
-        <div id="ContentBlock_4" class="contentType1">
-            
-            <div class="principalTittle2">¿Por que tener pagina web?</div>
-            
-            <!--Estamos comprometidos a desarrollar sitios web que son tan funcionales como son llamativos-->
-        </div>
         <div id="ContentBlock_5">
             <div id="parallax3" class="device-peek-bg">
                 <div class="backgroundFade">
@@ -248,6 +271,15 @@
             $("#squareOpen").toggleClass("squareOpen squareOpen2");
             $(".square").toggleClass("squareNone");
         });    
+        $('#squareH1').click(function(){
+            //$("#squareH1").toggleClass("squareH squareH-open");
+            $("#squareH1").html('<div id="squareInfo">Nuevo contenido de la capa<button id="close1" class="btn-danger">Ocultar</button></div>');
+        });  
+        $("#close1").click(function(){
+            //$("#squareH1").toggleClass("squareH squareH-open");
+            $("#squareInfo").toggle("slow");
+        });   
+        
     </script>    
         
         

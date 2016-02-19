@@ -51,6 +51,9 @@ header{
 #parallax6.device-peek-bg {
     background-image: url(img/W6.jpg);
 }
+#parallax1.device-peek-bg2 {
+    background-image: url(img/W7.jpg);
+}
 .device-peek-bg {
     background-attachment: fixed;
     background-position: center center;
@@ -58,6 +61,15 @@ header{
     background-size: cover;
     height: 25vw;
     min-height: 550px;
+}
+
+.device-peek-bg2 {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vw;
+    min-height: 685px;
 }
 .contentType1{
     height: 100%;
@@ -633,3 +645,115 @@ label {
 
 
 /*####################################################################*/
+
+
+
+.squareH{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    float: left;
+    margin: 4px;
+    background-image: url(img/Logos/tempLogo.png);
+    background-size: auto 200px;
+    background-position: center;
+    transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease; /* Firefox */
+    -webkit-transition: transform 0.5s ease; /* Chrome - Safari */
+    -o-transition: transform 0.5s ease; /* Opera */
+    z-index: 1;
+}
+
+
+.squareH:hover{
+		transform : scale(1.05);
+		-moz-transform : scale(1.05); /* Firefox */
+		-webkit-transform : scale(1.05); /* Chrome - Safari */
+		-o-transform : scale(1.05); /* Opera */
+		-ms-transform : scale(1.05); /* IE9 */
+}
+.squareH-open{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    float: left;
+    margin: 4px;
+    background-image: none;
+    background-color: aqua;
+    transition: transform 0.5s ease;
+    -moz-transition: transform 0.5s ease; /* Firefox */
+    -webkit-transition: transform 0.5s ease; /* Chrome - Safari */
+    -o-transition: transform 0.5s ease; /* Opera */
+    z-index: 1;
+}
+#squareInfo{
+    background-color: lawngreen;
+    width: 100%;
+    height: 100%;
+}
+
+/****************************  Rectangle  **********************************/
+
+#rectangle1{
+    background-image: url(img/Logos/tecnodental.png);
+}
+#rectangle2{
+    background-image: url(img/Logos/thermofrio.png);
+}
+#rectangle3{
+    background-image: url(img/Logos/alexloeza.png);
+}
+#rectangle4{
+    background-image: url(img/Logos/xpresarte.png);
+}
+.rectangleContainer{
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 1200px;
+    margin-top: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rectangleWrapper{
+    width: 260px;
+    height: auto;
+    float: left;
+    margin-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rectangle{
+    width: 260px;
+    height: 155px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(0, 0, 0, 0.50);
+    box-shadow:         7px 7px 5px 0px rgba(0, 0, 0, 0.50);
+}
+.rectangleInfo{
+    width: 260px;
+    height: 80px;
+    display: table;
+}
+.rectangleInfo > p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nobile', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+#rectangle1{
+
+}
+
+/****************************  Rectangle  **********************************/
