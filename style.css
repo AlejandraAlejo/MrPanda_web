@@ -172,7 +172,7 @@ footer{
     position: fixed;
     top: 65px;
     width: 100%;
-    z-index: 0;
+    z-index: 101;
 }
 .naviconSquare > .fa-bars, .naviconSquare > .fa-times{
     /*padding-right: 10px;*/
@@ -709,13 +709,20 @@ label {
 #rectangle4{
     background-image: url(img/Logos/xpresarte.png);
 }
+#rectangle5{
+    background-image: url(img/Logos/cafeviveros.png);
+}
+#rectangle6{
+    background-image: url(img/Logos/clubdmentes.png);
+}
 .rectangleContainer{
     left: 0;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     right: 0;
-    width: 1200px;
+    text-align: center;
+    width: 90%;
     margin-top: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -725,12 +732,12 @@ label {
 .rectangleWrapper{
     width: 260px;
     height: auto;
-    float: left;
-    margin-left: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: inline-block;
 }
-
 .rectangle{
     width: 260px;
     height: 155px;
@@ -813,3 +820,44 @@ p.subtitle, p.text{
     width: 100%;
     height: 80px;
 }
+
+
+/********************************** Prueba servicio *****************************************/
+#ser1{
+    background-color: #9CBFD9;
+}
+#ser2{
+    background-color: #9DA655;
+}
+#ser3{
+    background-color: #D7DBB6;
+}
+#ser4{
+    background-color: #706246;
+}
+
+.servicio {
+    background-color: red;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    
+}
+.servicio img.serviceImage {
+    max-width: 100%;
+    height: auto;
+}
+
+.servicioContainer{
+    width: 100%;
+    height: calc(100% - 65px);
+}
+/********************************************************************************************/
+
+
