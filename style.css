@@ -762,29 +762,58 @@ label {
     font-weight: bold;
     font-style: italic;
 }
-#rectangle1{
 
-}
-
-/****************************  Rectangle  **********************************/
+/************************************************************/
 
 
 
 
-/********************************** Prueba servicio *****************************************/
+/********************************** Servicio *****************************************/
+
 #service1{
     background-color: #9CBFD9;
-}
-#service2{
-    background-color: #9DA655;
-}
-#service3{
-    background-color: #D7DBB6;
-}
-#service4{
-    background-color: #706246;
+     color: #706246;
+ }
+ #service2{
+     background-color: #9DA655;
+     color: #D7DBB6;
+ }
+ #service3{
+     background-color: #D7DBB6;
+     color: #706246;
+ }
+ #service4{
+     background-color: #706246;
+     color: #9CBFD9;
 }
 
+
+/*#service1{
+    background-color: #7fba2f;
+    color: #6556a1;
+}
+#service2{
+    background-color: #2365af;
+    color: #d8663d;
+}
+#service3{
+    background-color: #d8663d;
+    color: #2365af;
+}
+#service4{
+    background-color: #6556a1;
+    color: #7fba2f;
+}*/
+
+#t1{
+    border-left: 60px solid #9CBFD9;
+}
+#t2{
+    border-left: 60px solid #9DA655;
+}
+#t3{
+    border-left: 60px solid #D7DBB6;
+}
 .service {
     background-color: red;
     display: inline-block;
@@ -817,33 +846,12 @@ label {
     width: 0;
     position: absolute;
 }
-#t1{
-    border-left: 60px solid #9CBFD9;
-}
-#t2{
-    border-left: 60px solid #9DA655;
-}
-#t3{
-    border-left: 60px solid #D7DBB6;
-}
-
 .service h3{
     font-family: 'Teko', sans-serif;
     font-weight: bold;
     font-size: 32px;
 }
-#service1{
-    color: #706246;
-}
-#service2{
-    color: #D7DBB6;
-}
-#service3{
-    color: #706246;
-}
-#service4{
-    color: #9CBFD9;
-}
+
 .service h4{
     font-family: "Montserrat",sans-serif;
     font-size: 20px;
@@ -858,18 +866,22 @@ label {
     padding-top: 90px;
 }
 .metroSquareType1{
-    width: 22.5%;
+    width: 24%;
     height: 28%;
     display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
+    position: relative;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 .metroSquareType2{
-    width: 45%;
+    width: 42%;
     height: 28%;
     display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
+    position: relative;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 .metroSquareType3{
     width: 45.5%;
@@ -877,6 +889,8 @@ label {
     display: inline-block;
     margin-left: 1%;
     margin-top: 1%;
+    position: relative;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
 }
 #ms1{
     
@@ -889,19 +903,19 @@ label {
     background-color: #00A338;
 }
 #ms4{
-    background-color: #BF2F51;
+    background-color: #7FBA2F;
 }
 #ms5{
-    background-color: #934392;
-}
-#ms6{
     background-color: #2365AF;
 }
+#ms6{
+    background-color: #934392;
+}
 #ms7{
-    background-color: #00ADBD;
+    background-color: #BF2F51;
 }
 #ms8{
-    background-color: #7FBA2F;
+    background-color: #F9B900;
 }
 
 .metroSquareType1 img, .metroSquareType2 img, .metroSquareType3 img{
@@ -912,5 +926,9 @@ label {
     color: #ffffff;
     font-family: "Abel",sans-serif;
     font-size: 16px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -5px;
 }
 /********************************************************************************************/
